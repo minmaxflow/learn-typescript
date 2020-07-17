@@ -80,7 +80,7 @@ type Tree<T> = {
   right: Tree<T>;
 };
 
-// 优先使用interface, 是在搞不定，使用type alias
+// 优先使用interface, 实在搞不定，使用type alias
 //  Literal Types
 
 type Easing = 'ease-in' | 'ease-out' | 'ease-in-out';
